@@ -1,0 +1,28 @@
+div:hover{
+    border-top: 3px solid rgb(161, 10, 10);
+    border-bottom: 3px solid rgb(201, 14, 14)
+}
+#corPrimaria{color: blue;
+
+}
+
+#corSecundária{color: orange;
+
+}
+
+#corComplementar{color: blueviolet;
+                font-size: medium;
+}
+
+#corEscura{color: brown;
+
+}
+
+#corClara{color: yellow;
+
+}
+
+h3 {
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
