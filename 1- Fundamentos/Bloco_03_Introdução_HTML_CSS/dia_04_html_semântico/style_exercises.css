@@ -1,0 +1,21 @@
+header{
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: large;
+}
+
+.nav_links01{
+    border-bottom: 4px solid red;
+    border-top: 4px solid red;
+    border-left: 4px solid red;
+    border-right: 4px solid red;
+    margin-left: 10px;
+}
+
+.nav_links01:hover{
+    background-color: green;
+    color: azure;
+    font-size: larger;
+}
+
