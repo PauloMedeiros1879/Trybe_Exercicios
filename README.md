@@ -8,7 +8,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ## Fundamentos do Desenvolvimento Web :white_check_mark:
 
-##### .[Bloco 1: Unix & Shell].(https://github.com/PauloMedeiros1879/Trybe_Exercicios/tree/main/1-%20Fundamentos/Bloco_01_Unix_Bash)
+##### Bloco 1: Unix & Shell
 
 - [X] 1-3: _Unix & Shell- Part 1_
 - [X] 1-4: _Unix & Shell- Part 2_
@@ -30,7 +30,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Bloco 4: Introdução à JavaScript & Lógica de Programação
 
 - [X] 4-1: _JavaScript - Primeiros passos_
-- [ ] 4-2: _JavaScript - Array e loop For_
+- [X] 4-2: _JavaScript - Array e loop For_
 - [ ] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
 - [ ] 4-4: _JavaScript - Objetos e funções_
 - [ ] 4-5: _[Projeto - Playground Functions]()_
