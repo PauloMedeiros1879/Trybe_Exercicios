@@ -52,10 +52,43 @@ switch(e){
 
 //Exercicio 05
 
+const angle1 = 30;
+const angle2 = 60;
+const angle3 = 90;
+
+if(angle1+angle2+angle3 == 180){
+    console.log("true");
+}
+else if(angle+angle2+angle3 == 30){
+    console.log("false");
+}
+else{
+    console.log("error");
+}
 
 //Exercicio 06
 
+let  peca = "Bispo";
+ peca = peca.toLocaleLowerCase();
+
+switch(peca){
+    case "torre":
+        console.log("Frente e Lado, sem limite de casas");
+        break;
+    case "bispo":
+        console.log("diagonais, sem limite de casas");
+        break;
+    case "cavalo":
+        console.log("Em L, 4 casas");
+        break;
+    case "peão":
+        console.log("Frente, 2 casa inicial, depois apenas 1 casa");
+        break;
+}
+    
+
 //Exercicio 07
+
 
 //Exercicio 08
 
