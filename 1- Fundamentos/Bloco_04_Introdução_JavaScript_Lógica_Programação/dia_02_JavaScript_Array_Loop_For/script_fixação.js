@@ -30,3 +30,11 @@ let groceryList = ['Arroz', 'Feijão', 'Alface', 'Melancia'];
 for(list = 0; list < groceryList.length; list++){
     console.log(groceryList[list]);
 }
+
+//For/of
+//Exercicio 1
+//Utilize o for/of para imprimir os elementos da lista names com o console.log():
+let names = ['João', 'Maria', 'Antônio', 'Margarida'];
+for(let listItens of names){
+    console.log(listItens);
+}
