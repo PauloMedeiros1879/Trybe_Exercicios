@@ -21,7 +21,7 @@ console.log(resultado);
   let word = 'tryber';
   let contrario = ''
   for(let vqv = word.length - 1; vqv--;){
-   contrario += word[vqv];
+   contrario += word[vqv]; // LINHA 24 - Stack Overflow;
   }
   console.log(contrario);
   
