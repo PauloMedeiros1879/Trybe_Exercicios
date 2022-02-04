@@ -27,11 +27,11 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 3-4: _HTML Semântico_
 - [X] 3-5: _[Projeto - Lessons Learned]()_
 
-##### Bloco 4: Introdução à JavaScript & Lógica de Programação
+##### Bloco 4: [Introdução à JavaScript & Lógica de Programação](https://github.com/PauloMedeiros1879/Trybe_Exercicios/tree/main/1-%20Fundamentos/Bloco_04_Introdu%C3%A7%C3%A3o_JavaScript_L%C3%B3gica_Programa%C3%A7%C3%A3o)
 
 - [X] 4-1: _JavaScript - Primeiros passos_
 - [X] 4-2: _JavaScript - Array e loop For_
-- [ ] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
+- [X] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
 - [ ] 4-4: _JavaScript - Objetos e funções_
 - [ ] 4-5: _[Projeto - Playground Functions]()_
 
