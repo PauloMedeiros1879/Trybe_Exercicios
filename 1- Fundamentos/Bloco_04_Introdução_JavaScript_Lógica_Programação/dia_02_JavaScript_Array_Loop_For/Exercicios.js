@@ -1,4 +1,6 @@
 /*
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+
 1º - Nesse primeiro exercício, percorra o array imprimindo todos os valores nele contidos com a função console.log() ;
 
 2º - Para o segundo exercício, some todos os valores contidos no array e imprima o resultado;
@@ -19,7 +21,10 @@
 
 9º - Utilizando o array criado no exercício anterior imprima o resultado da divisão de cada um dos elementos por 2 .*/
 
+//-RESOLUÇÃO
+
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+
 //console.log(numbers); 1º
 
 //console.log(5+9+3+19+70+8+100+2+35+27); 2º

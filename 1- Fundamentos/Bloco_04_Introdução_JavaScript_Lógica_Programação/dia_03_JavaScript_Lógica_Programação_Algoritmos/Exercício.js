@@ -30,9 +30,15 @@ for(let vqv = word.length - 1; vqv--;){
 let array = ['java', 'javascript', 'python', 'html', 'css'];
 Escreva dois algoritmos: um que retorne a maior palavra deste array e outro que retorne a menor.
 Considere o número de caracteres de cada palavra.*/
+let array = ['java', 'javascript', 'python', 'html', 'css'];
+for (let index = 0; index < array.length; index++) {
 
+    for (let index = 0; index < array.length; index++) {   
+    }  
+}
 /*4- Um número primo é aquele divisível apenas por 1 e por ele mesmo.
 Sabendo disso, escreva um algoritmo que retorne o maior número primo entre 0 e 50.*/
+let primo = 25
 
 //BONUS
 /*
