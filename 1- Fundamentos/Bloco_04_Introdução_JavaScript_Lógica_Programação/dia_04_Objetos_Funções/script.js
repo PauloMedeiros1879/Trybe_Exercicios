@@ -1,4 +1,5 @@
-//Fixação
+//Fixação - Objetos
+
 //1 - Crie um objeto player contendo as variáveis listadas abaixo.
 
 /*let name = 'Marta';
@@ -24,3 +25,47 @@ esportista['bestInTheWorld'] = [2006, 2007, 2008, 2009, 2010, 2018]
 console.log('A jogadora' + ' ' + esportista.name + ' ' + esportista.lastName + ' ' + 'foi eleita a melhor do mundo por 6 vezes' + ' ' +   esportista.bestInTheWorld);
 //5 - Acesse a chave medals e faça um console.log no seguinte formato: "A jogadora possui 2 medalhas de ouro e 3 medalhas de prata".
 console.log('A jogadora possui' + ' ' + esportista.medals.golden + ' ' + 'medalhas de ouro e' + ' ' + esportista.medals.silver + ' ' + 'medalhas de prata');
+
+//Fixação - for/in for/of
+/*
+ ------for/in-----
+
+let food = ['hamburguer', 'bife', 'acarajé'];
+
+for (let position in food) {
+  console.log(position);
+};
+//resultado: 0, 1, 2;
+
+-----for/of-----
+
+let food = ['hamburguer', 'bife', 'acarajé'];
+
+for (let value of food) {
+  console.log(value);
+};
+//resultado: hamburguer, bife, acarajé;*/ 
+
+//1 - Usando o objeto abaixo, utilize for/in e imprima no console a mensagem 'Olá xxxxx' para cada nome, substituindo o xxxxx pelo nome em questão.
+
+let names = {
+    person1: 'João',
+    person2: 'Maria',
+    person3: 'Jorge',
+  };
+
+  for(let key in names){
+console.log('Olá' + ' ' + names[key]);
+  }
+
+  //2 - Usando o objeto abaixo, utilize for/in e imprima um console.log com as chaves e valores desse objeto.
+  
+  let car = {
+    model: 'A3 Sedan',
+    manufacturer: 'Audi',
+    year: 2020
+  };
+
+for(let key in car){
+console.log(key, car[key]);
+}
