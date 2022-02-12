@@ -37,15 +37,15 @@
     <main class="main-content">
       <section class="center-content">
         <p id="paragrafo1">Texto padrão do nosso site</p>
-        <p class="textName">-----</p>
-        <p class="textName">Trybe</p>
+        <p>-----</p>
+        <p>Trybe</p>
       </section>
     </main>
     <script>
       // Exercício 1
       function changeText() {
       let paragraph = document.getElementsByTagName('p')[1];
-      paragraph.innerHTML = "Está trabalhando em  uma grande empresa e com um ótimo salario"
+      paragraph.innerHTML = "Estar trabalhando em  uma grande empresa e com um ótimo salario"
     }
     changeText();
 
@@ -85,6 +85,13 @@
       }
     }
     showParagraphs();
+
+    //Bonus
+    function changeTextFirst() {
+      let paragraphfirst = document.getElementsByTagName('p')[0];
+      paragraphfirst.innerHTML = "Visão do meu futuro com a Trybe!"
+    }
+    changeTextFirst();
         /*
         Aqui você vai modificar os elementos já existentes utilizando apenas as funções:
         - document.getElementById()
