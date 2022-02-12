@@ -36,12 +36,21 @@
     </header>    
     <main class="main-content">
       <section class="center-content">
-        <p>Texto padrão do nosso site</p>
-        <p>-----</p>
-        <p>Trybe</p>
+        <p id="paragrafo1">Texto padrão do nosso site</p>
+        <p class="textName">-----</p>
+        <p class="textName">Trybe</p>
       </section>
     </main>
     <script>
+      let titulo = document.getElementById('paragrafo1');
+      titulo.style.color = "blue";
+      titulo = document.getElementById("paragrafo1").innerText = "Olá estudantes!";
+      let textName = document.getElementsByClassName("textName")[0];
+      textName.style.color = "white";
+      textName = document.getElementsByClassName("textName")[1];
+      textName.style.color = "green";
+      document.getElementsByTagName("p")[1].innerText = "Me vejo trabalhando em uma grande empresa"
+      
         /*
         Aqui você vai modificar os elementos já existentes utilizando apenas as funções:
         - document.getElementById()
