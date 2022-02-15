@@ -57,7 +57,61 @@
   </head>
   <body>
     <script>
-      // COLOQUE SEU CÓDIGO AQUI
+      //1
+      let titleh1 = document.createElement('h1')
+      titleh1.innerText = 'Exercício 5.2 - JavaScript DOM';
+      document.body.appendChild(titleh1);
+
+      //2
+      let elementMain = document.createElement('main')
+      elementMain.className = 'main-content';
+      document.body.appendChild(elementMain);
+
+      //3
+      let sectionCenter = document.createElement('section')
+      sectionCenter.className = 'center-content';
+      elementMain.appendChild(sectionCenter);
+
+      //4
+      let paragraph = document.createElement('p')
+      paragraph.innerText = 'Trybe';
+      sectionCenter.appendChild(paragraph);
+
+      //5
+      let sectionLeft = document.createElement('section')
+      sectionLeft.className = 'left-content';
+      elementMain.appendChild(sectionLeft);
+
+      //6
+      let sectionRight = document.createElement('section').main
+      sectionRight.className = 'right-content';
+      elementMain.appendChild(sectionRight);
+
+      //7
+      let elementImg = document.createElement('img');
+      elementImg.className = 'small-image';
+      elementImg.src = 'https://picsum.photos/200';
+      sectionLeft.appendChild(elementImg);
+      
+      //8
+      let elementUl = document.createElement('ul');
+      sectionRight.appendChild(elementUl);
+
+      let numbers = ['Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis',
+        'Sete', 'Oito', 'Nove', 'Dez']
+      for (let count in numbers) {
+        let elementLi = document.createElement('li');
+        elementLi.innerHTML = numbers[count];
+        elementUl.appendChild(elementLi);
+      }
+
+      //9
+      for (let index = 1; index <= 3; index += 1) {  
+        let elementsH3 = document.createElement('h3');
+        elementsH3.innerHTML = 'Show ' + index;
+        elementMain.appendChild(elementsH3);
+      }
+      
     </script>
   </body>
 </html>
