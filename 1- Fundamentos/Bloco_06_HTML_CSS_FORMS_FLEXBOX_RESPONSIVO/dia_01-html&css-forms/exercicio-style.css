@@ -23,5 +23,28 @@
 }
 #option{
     margin-left: 20px;
+    margin-bottom: 20px;
 }
-
+#text-digit{
+    margin-left: 20px;
+    margin-top: 10px;
+    resize: none;
+}
+#pers-date{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.pers-check{
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+.buttons{
+    margin-left: 20px;
+    background-color: chartreuse;
+}
+.buttons:active{
+    color: aliceblue;
+}
+#pers-text{
+    margin-left: 20px;
+}
