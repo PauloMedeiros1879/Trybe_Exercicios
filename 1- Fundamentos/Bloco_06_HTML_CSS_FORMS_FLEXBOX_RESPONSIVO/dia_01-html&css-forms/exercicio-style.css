@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+}
+#block1{
+    border: 2px solid black;
+    padding: 10px;
+    background-color: chartreuse;
+    color: azure;
+    margin-bottom: 20px;
+}
+#title{
+    text-align: center;
+    font-style: oblique;
+}
+.name-email{
+    color: green;
+}
+#full-name{
+    background-color: blanchedalmond; 
+}
+#e-mail{
+    background-color: blanchedalmond;
+}
+#option{
+    margin-left: 20px;
+}
+

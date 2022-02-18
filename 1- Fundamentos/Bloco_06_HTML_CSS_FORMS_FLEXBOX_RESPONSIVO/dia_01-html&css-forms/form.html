@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio do dia</title>
+    <link rel="stylesheet" href="exercicio-style.css">
+</head>
+<body>
+    <header id="block1">
+        <h1 id="title">Header da página</h1>
+    </header>
+    <form>
+        <div class="name-email">
+        <label for="full-name">Nome:</label>
+        <input type="text" name="full-name" id="full-name" min="10" max="40">
+    </div>
+    <br>
+    <div class="name-email">
+        <label for="e-mail">Email:</label>
+        <input type="email" name="e-mail" id="e-mail" min="10" max="50">
+    </div>
+    <br>
+    <div id="option">
+        <input type="radio" name="option" id="option1">
+        <label for="option1">Cidade</label>
+        <input type="radio" name="option" id="option2">
+        <label for="option1">Campo</label>
+        <input type="radio" name="option" id="option3">
+        <label for="option1">Praia</label>
+        <input type="radio" name="option" id="option4">
+        <label for="option1">Montanha</label>
+    </div>
+    <div>
+        <label for="text-digit">Espaço para digitar a resposta:</label>
+        <textarea name="text-area" id="text-digit" cols="30" rows="10" maxlength="500" block\></textarea>
+    </div>
+    <br>
+    <div>
+        <label for="good-date">Qual a melhor data para realizar sua viagem?</label>
+        <input type="date" name="good-date" id="good-date">
+    </div>
+    <div>
+        <input type="checkbox" name="check1" id="check1">
+        <label for="check1">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</label>
+    </div>
+    <div>
+        <input type="checkbox" name="check2" id="check2">
+        <label for="">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.</label>
+    </div>
+    <br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Reseta</button>
+    </form>
+    <link src="exercicio-script.js">
+</body>
+</html>
