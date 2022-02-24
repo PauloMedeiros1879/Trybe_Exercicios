@@ -5,3 +5,70 @@ html {
   *, *:before, *:after {
     box-sizing: inherit;
   }
+
+  container {
+    display: flex;
+  }
+  
+  p {
+    padding: 20px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    body {
+      background-color: lightcoral;
+      font-family: sans-serif;
+    }
+    .container {
+      flex-direction: column;
+    }
+  
+    p {
+      padding: 0 5px;
+      line-height: 1.5em;
+    }
+    h2 {
+      padding: 10px;
+    }
+    h1 {
+      padding: 20px;
+    }
+  }
+
+  @media screen and (min-width: 600px) {
+    body {
+      background-color: yellow;
+      color:blue
+    }
+  
+    .container {
+      flex-wrap: wrap;
+    }
+
+    h2 {
+      padding: 10px;
+    }
+    
+    h1 {
+      padding: 20px;
+    }
+  }
+
+  @media screen and (min-width: 1000px) {
+    body {
+      background-color: black;
+      color:aliceblue;
+    }
+  
+    .container {
+      flex-wrap: nowrap;
+    }
+
+    h2 {
+      padding: 10px;
+    }
+    
+    h1 {
+      padding: 20px;
+    }
+  }
