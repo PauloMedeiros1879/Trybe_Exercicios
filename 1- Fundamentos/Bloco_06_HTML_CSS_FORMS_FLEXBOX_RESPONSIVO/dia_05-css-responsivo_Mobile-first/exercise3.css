@@ -78,3 +78,30 @@ body {
     padding: 20px;
     height: 1%;
   }
+
+  @media print {
+    #header, #navigation, #footer {
+      display: none;
+    }
+
+    #content {
+      width: 100%;
+    }
+    #aside {
+      order: 4;
+    }
+  }
+
+  @media screen and (max-width: 450px) {
+    #aside {
+      display: none;
+    }
+    
+    body {
+      padding: 0;
+    }
+
+    .navigation {
+      display: flex;
+    }
+  }
