@@ -104,4 +104,8 @@ body {
     .navigation {
       display: flex;
     }
+
+    #header {
+      display: fixed;
+    }
   }
