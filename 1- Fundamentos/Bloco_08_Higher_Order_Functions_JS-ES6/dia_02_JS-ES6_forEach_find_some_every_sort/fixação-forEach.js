@@ -10,4 +10,4 @@ const emailListInData = [
   };
   
   // Adicione seu código aqui
-  
+  emailListInData.forEach(showEmailList);
