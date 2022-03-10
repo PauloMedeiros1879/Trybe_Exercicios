@@ -79,3 +79,13 @@ enviarEmail(item);
 console.log(`Sua posição é a de: ${posicao}`);
 console.log(`A quantidade de pessoas no processo seletivo é: ${array.length}`);
 })
+
+//tabuada do 2
+
+const numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9,];
+
+const multipliesFor2 = (element) => {
+  console.log(`2 * ${element}: ${element * 2}`);
+};
+
+numbers.forEach(multipliesFor2);
