@@ -59,3 +59,23 @@ const students = [
   //   { name: 'Roberto', grade: 90, approved: 'Aprovado' },
   //   { name: 'Ana', grade: 81, approved: 'Aprovado' }
   // ]
+
+
+  //Array.forEach
+
+let listaDePessoasAprovadas = [
+  'player1@gmail.com',
+  'player2@gmail.com',
+  'player3@gmail.com',
+  'player4@gmail.com'
+];
+
+const enviarEmail = (email) => {
+  console.log(`Enviar para ${email} foi enviado com sucesso!`);
+};
+
+listaDePessoasAprovadas.forEach((item, posicao, array) => {
+enviarEmail(item);
+console.log(`Sua posição é a de: ${posicao}`);
+console.log(`A quantidade de pessoas no processo seletivo é: ${array.length}`);
+})
