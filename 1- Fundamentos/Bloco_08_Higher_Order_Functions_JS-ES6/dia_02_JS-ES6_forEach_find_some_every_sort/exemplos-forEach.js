@@ -89,3 +89,14 @@ const multipliesFor2 = (element) => {
 };
 
 numbers.forEach(multipliesFor2);
+
+//convertendo para toUpperCase()
+
+const names = ['Bianca', 'Camila', 'Fernando', 'Ana Roberta'];
+
+const convertToUpperCase = (name, index) => {
+  names[index] = name.toUpperCase();
+};
+
+names.forEach(convertToUpperCase);
+console.log(names);
