@@ -1,3 +1,5 @@
+//1
+
 const listNames = ['Maria', 'Manuela', 'Jorge', 'Ricardo', 'Wilson'];
 
 const verifyFirstLetter = (letter, names) => names.some((name) => name[0] === letter);
