@@ -60,14 +60,14 @@ const books = [
       releaseYear: 1928,
     },
   ];
-  
+
   // Adicione o código do exercício aqui:
 
 
 //1 - Crie um array com strings no formato NOME_DO_LIVRO - GÊNERO_DO_LIVRO - NOME_DA_PESSOA_AUTORA
 
 //#Dica: Use a função map
-
+/*
 const expectedResult = [
     'As Crônicas de Gelo e Fogo - Fantasia - George R. R. Martin',
     'O Senhor dos Anéis - Fantasia - J. R. R. Tolkien',
@@ -76,17 +76,18 @@ const expectedResult = [
     'A Coisa - Terror - Stephen King',
     'O Chamado de Cthulhu - Terror - H. P. Lovecraft',
   ];
+*/
+
+const formatedBookNames = books.map((book) => `${book.name} - ${book.genre} - ${book.author.name}`);
+console.log(formatedBookNames);
   
-  function formatedBookNames() {
-    // escreva seu código aqui
-  }
 
 
 //2 - Construa um array de objetos a partir do array de livros. Cada objeto deve conter uma propriedade author , com o nome da pessoa autora do livro, e uma propriedade age com a idade dessa pessoa quando o livro foi lançado. O array deve ser ordenado por idade, ou seja, da pessoa mais jovem para a mais velha considerando suas idades quando o livro foi lançado.
 
 //#Dica: use as funções map , sort
-
-const expectedResult2 = [
+/*
+const expectedResult = [
     {
       age: 31,
       author: 'Isaac Asimov',
@@ -112,7 +113,7 @@ const expectedResult2 = [
       author: 'J. R. R. Tolkien',
     },
   ];
-  
+*/
   function nameAndAge() {
     // escreva seu código aqui
   }
@@ -120,8 +121,8 @@ const expectedResult2 = [
   //3 - Crie um array com todos os objetos que possuem gênero ficção científica ou fantasia.
 
   //#Dica: use a função filter ;
-
-  const expectedResult3 = [
+/*
+  const expectedResult = [
     { 
       id: 1,
       name: 'As Crônicas de Gelo e Fogo',
@@ -151,17 +152,21 @@ const expectedResult2 = [
       releaseYear: 1965
     }
   ];
-  
-  function fantasyOrScienceFiction() {
+*/
+  function fantasyOrScienceFiction(array) {
     // escreva seu código aqui
-  }
+    const result = array.filter((arrayElement) => `Gêneros de: ${arrayElement.genre}`
+    )
+    console.log(result)
+    return result;
+  };
 
 
 //4 - Crie um array ordenado pelos livros com mais de 60 anos de publicação e ordene-o pelo livro mais velho.
 
 //#Dica: use as funções filter e sort
-
-const expectedResult4 = [
+/*
+const expectedResult = [
     {
       id: 6,
       name: 'O Chamado de Cthulhu',
@@ -184,33 +189,33 @@ const expectedResult4 = [
       releaseYear: 1954,
     },
   ];
-  
+ */ 
   function oldBooksOrdered() {
     // escreva seu código aqui
   }
 
 
   //5 - Crie um array em ordem alfabética apenas com os nomes de todas as pessoas autoras de ficção científica ou fantasia.
-
-  const expectedResult5 = [
+/*
+  const expectedResult = [
     'Frank Herbert',
     'George R. R. Martin',
     'Isaac Asimov',
     'J. R. R. Tolkien',
   ];
-  
+ */ 
   function fantasyOrScienceFictionAuthors() {
     // escreva seu código aqui
   }
 
   //6 - Crie um array com o nome de todos os livros com mais de 60 anos de publicação.
-
-  const expectedResult6 = [
+/*
+  const expectedResult = [
     'O Senhor dos Anéis',
     'Fundação',
     'O Chamado de Cthulhu',
   ];
-  
+*/  
   function oldBooks() {
     // escreva seu código aqui
   }
@@ -218,12 +223,9 @@ const expectedResult4 = [
 //7 - Encontre o nome do livro escrito pela pessoa cujo nome registrado começa com três iniciais.
 
 //#Dica: cada inicial termina com um ponto.
-
-const expectedResult7 = 'O Senhor dos Anéis';
-
+/*
+const expectedResult = 'O Senhor dos Anéis';
+*/
 function authorWith3DotsOnName() {
   // escreva seu código aqui
 }
-
-
-//exercicio original não há os numerais 1,2,3,4,5,6,7 em expectedResult;
