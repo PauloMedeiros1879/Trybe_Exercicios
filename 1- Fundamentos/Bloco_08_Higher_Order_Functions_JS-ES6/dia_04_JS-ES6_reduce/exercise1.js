@@ -5,6 +5,10 @@ const arrays = [
     [4, 5, 6],
   ];
   
-  function flatten() {
-    // escreva seu código aqui
-  }
+  const flatten = arrays.reduce((accumulator, currentValue) => {
+    return accumulator.concat(currentValue)
+  }, []); 
+
+  console.log(flatten)
+  
+  //FINALIZADO  
