@@ -76,5 +76,13 @@ const expectedResult = {
     releaseYear: 1991,
   };
   
-  const longestNamedBook = books.reduce(() => {});
-    // escreva seu código aqui
+  const longestNamedBook = books.reduce((accumulator, currentValue) => {
+    if (accumulator.name.length > currentValue.name.length) {
+    return accumulator;
+    }
+    return currentValue;
+  });
+   
+  console.log(longestNamedBook)
+  
+  //FINALIZADO
