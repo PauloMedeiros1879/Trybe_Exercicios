@@ -9,7 +9,7 @@ const repeat = (number, action) => {
 
   //2
 
-  const repeat = (number, action) => {
+  const repeat2 = (number, action) => {
     for (let count = 0; count <= number; count += 1) {
       action(count);
     }
@@ -23,7 +23,7 @@ const repeat = (number, action) => {
 
   //3
 
-  const repeat = (number, action) => {
+  const repeat3 = (number, action) => {
     for (let count = 0; count <= number; count += 1) {
       action(count);
     }
