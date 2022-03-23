@@ -3,6 +3,7 @@
 //Dica: use default params .
 
 // escreva greet abaixo
+const greet = (name, msg = 'Hi') => `${msg} ${name}`;
 
 console.log(greet('John')) // 'Hi John'
 console.log(greet('John', 'Good morning')) // 'Good morning John'
